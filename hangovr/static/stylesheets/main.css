@@ -1,0 +1,54 @@
+body {
+    background: url(../images/background.svg);
+				/*rgb(69,20,101);*/
+    background-size: cover;
+    background-position: center; 
+    font-family: "Lato";
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
+    text-align: center
+}
+
+h1 {
+    font-family: "Lato";
+	font-weight: 700;
+	font-size: 7em;
+}
+
+h2 {
+    font-family: "Lato";
+	font-weight: 500;
+	font-size: 3em
+}
+
+
+.content{
+    font-family: "Lato";
+	padding-top: 25%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+    width: 600px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+
+#example-text-input{	
+	margin: 0;
+	text-align: center;
+	align: center;
+	width: 50%;
+}
+

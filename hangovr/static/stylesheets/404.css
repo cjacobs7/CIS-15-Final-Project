@@ -1,0 +1,17 @@
+body {
+    background: url(../images/error404);
+				/*rgb(69,20,101);*/
+    background-size: cover;
+    background-position: center; 
+    font-family: "Lato";
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
+    text-align: center
+}
+
