@@ -20,7 +20,7 @@ user data to get even close to a desired result.
 
 NOTES ON USER INPUT: The app will crash if input data isn't well-formed. If it is well formed 
 and out of the scope of data we are comparing against, we do handle that in our algorithm 
-function byassigning the bad variable a new random value.
+function by assigning the bad variable a new random value.
 
 Flask renders our pages from the static folder. They only dynamically generated page is 
 display.ejs where we pass our calculated results in with a little formatting. I used ejs 
