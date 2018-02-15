@@ -1,7 +1,7 @@
 '''
 CIS 15 Final Project
 
-Final Project - A simulated user input comparison website
+Final Project - A simulated user input comparison application
 
 My final project simulates a site that tracks and compares user entered data.
 
@@ -9,23 +9,14 @@ We achieve the simulation by seeding thousands of pieces of randomly generated d
 that is realistic within the bounds of what real user input might be. We then ask 
 the user to input their data so that we can compare it to what other "users" have input.
 
-NOTE ON SEEDING DATA: When I've run the app seeding 10K sets of data, the process takes 
-really long so I've reduced it to 1000 and increased the location range. It doesn't give 
-us the best results but seems to still get enough data to demo.
-
 Because of the questions asked (geolocation and demograpic data), it was necessary to fake
-user data and made for a good database query exercise. The datastore database will still 
+user data by seeding the database and made for a good database query exercise. The datastore database will still 
 store authentic user data. For this exercise, we would have never recieved enough authentic 
 user data to get even close to a desired result.
 
 NOTES ON USER INPUT: The app will crash if input data isn't well-formed. If it is well formed 
 and out of the scope of data we are comparing against, we do handle that in our algorithm 
 function by assigning the bad variable a new random value.
-
-Flask renders our pages from the static folder. They only dynamically generated page is 
-display.ejs where we pass our calculated results in with a little formatting. I used ejs 
-because I thought at the onset of the project that flask might need js to pass variables.
-
 
 @author Christopher Jacobs
 @updated 12/12/17
